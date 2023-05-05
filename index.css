@@ -1,0 +1,165 @@
+body{
+    
+    position: relative;
+    background-color: rgb(3, 3, 24);
+    margin-right: 20px;
+}
+.body{
+
+    width: 60%;
+ 
+   margin: auto;
+   padding-top:50px;
+}
+.container{
+   justify-content: center;
+    display: inline-flex;
+  filter: brightness(1.2);
+    background-color: rgb(48, 36, 66);
+  width:min-content;
+    
+    padding: 10px 20px;
+    border-radius: 15px;
+
+   
+}
+.texts{
+ 
+position: relative;
+}
+.texts h1{
+    width: 80%;
+    color: white;
+
+}
+.texts h1 i{
+color: blueviolet;
+font-style: normal;
+}
+.texts p{
+    width: 80%;
+color: white;
+font-size: medium;
+margin-bottom: 40px;
+word-spacing: 3px;
+
+
+}
+
+
+.relate {
+position: relative;
+display: flex;
+}
+.relate div{
+  margin: 20px;
+text-align: center;
+}
+.relate div p{
+    
+    color: white;
+    opacity: 0.3;
+
+}
+.relate div h1{
+    color: white;
+    font-size: medium;
+    font-weight: 900;
+
+}
+.image{
+    position: relative;
+}
+.image img{
+    margin: 0px;
+   background-size: cover;
+width: max-content;
+  height: 100%;
+
+
+  
+
+}
+.imge{
+    display: none;
+}
+
+@media screen and (max-width:700px){
+    body{
+      
+    width: 100%;
+        background-color: rgb(3, 3, 24);
+    }
+    .body{
+        width: 100%;
+      
+       margin: auto;
+    }
+    .container{
+        margin: auto;
+        position:relative;
+        display: block;
+      filter: brightness(1.2);
+        background-color: rgb(48, 36, 66);
+
+        width: 60%;
+        padding: 10px 20px;
+        border-radius: 15px;
+        box-shadow: 1px #170e29;
+       
+    }
+    .texts{
+     
+    position: relative;
+    }
+    .texts h1{
+        width: 80%;
+        color: white;
+    
+    }
+    .texts h1 i{
+    color: blueviolet;
+    font-style: normal;
+    }
+    .texts p{
+        width: 80%;
+    color: white;
+    font-size: medium;
+    margin-bottom: 40px;
+    
+    }
+  
+    .relate {
+    position: relative;
+  display:block;
+    }
+   
+ 
+    .image{
+        position: relative;
+        width: 60%;
+    }
+    .container img {
+        width: 100%;
+     
+    
+    
+      
+    
+    }
+    .imge{
+        display: block;
+        margin: 0px;
+       
+    
+     
+    }
+    .image{
+        display: none;
+       
+
+    }
+
+    
+}
+
