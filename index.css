@@ -98,7 +98,8 @@ width: max-content;
     .container{
         margin: auto;
         position:relative;
-        display: block;
+        display: flex;
+        flex-direction: column-reverse;
       filter: brightness(1.2);
         background-color: rgb(48, 36, 66);
 
@@ -135,27 +136,10 @@ width: max-content;
     }
    
  
-    .image{
-        position: relative;
-        width: 60%;
-    }
-    .container img {
-        width: 100%;
-     
-    
-    
-      
-    
-    }
-    .imge{
-        display: block;
-        margin: 0px;
-       
-    
-     
-    }
-    .image{
-        display: none;
+   
+    .image img{
+       width: 100%;
+        
        
 
     }
